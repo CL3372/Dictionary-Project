@@ -43,6 +43,7 @@ export default function Dictionary(props) {
             defaultValue={props.defaultKeyword}
             autoFocus={true}
           />
+          <p className="Hint">i.e. sunset, wine, yoga, coding</p>
         </form>
         <Results results={results} />
       </section>

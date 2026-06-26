@@ -66,6 +66,22 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  background: #f9f7fe;
+  color: #272142;
+}
+
+a {
+  color: #6c63ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 h1,
 h2 {
   font-family: var(--heading);

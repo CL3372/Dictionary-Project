@@ -1,0 +1,40 @@
+.Results section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+.Meaning {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.Meaning h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: #272142;
+}
+
+.Meaning .definition {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #272142;
+  margin-bottom: 20px;
+}
+
+.Meaning .example {
+  font-size: 18px;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.Meaning .similar {
+  font-size: 16px;
+  color: #444;
+}

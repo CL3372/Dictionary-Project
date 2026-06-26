@@ -1,0 +1,41 @@
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.Dictionary h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 20px;
+  color: #272142;
+}
+
+.Dictionary form {
+  margin-bottom: 10px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #272142;
+  outline: none;
+  transition: all 150ms ease-in-out;
+}
+
+.Dictionary input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 4px rgba(108, 99, 255, 0.15);
+}
+
+.Dictionary .Hint {
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
