@@ -1,0 +1,24 @@
+.Photos {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.Photos .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.Photos img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  transition: transform 150ms ease-in-out;
+}
+
+.Photos img:hover {
+  transform: scale(1.03);
+}

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import "./App.css";
 import Dictionary from "./components/Dictionary";
 
@@ -7,7 +6,7 @@ export default function App() {
     <div className="App">
       <Dictionary defaultKeyword="sunset" />
       <footer className="App-footer">
-        Coded by Carla Louro and open-sourced on <a href="https://github.com/your-github-username">GitHub</a>
+        Coded by Your Name and open-sourced on GitHub
       </footer>
     </div>
   );
