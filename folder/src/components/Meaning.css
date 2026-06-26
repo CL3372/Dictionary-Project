@@ -1,40 +1,27 @@
-.Results section {
-  background: white;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  margin-bottom: 20px;
-}
 .Meaning {
   background: white;
   padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
   margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .Meaning h3 {
-  font-size: 32px;
-  font-weight: 700;
   margin: 0 0 20px;
+  font-size: 30px;
   color: #272142;
 }
 
 .Meaning .definition {
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 22px;
+  line-height: 1.5;
   color: #272142;
   margin-bottom: 20px;
 }
 
 .Meaning .example {
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
-  color: #666;
+  color: #888;
   margin-bottom: 20px;
-}
-
-.Meaning .similar {
-  font-size: 16px;
-  color: #444;
 }

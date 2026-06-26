@@ -2,18 +2,24 @@ import React from "react";
 import "./Meaning.css";
 
 export default function Meaning(props) {
+  if (!props.meaning.definitions || props.meaning.definitions.length === 0) {
+    return null;
+  }
+
+  let definition = props.meaning.definitions[0];
+
   return (
-    <div className="Meaning">
+    <section className="Meaning">
       <h3>{props.meaning.partOfSpeech}</h3>
-      <p className="definition">{props.meaning.definition}</p>
-      {props.meaning.example && (
-        <p className="example">"{props.meaning.example}"</p>
-      )}
+      <p className="definition">{definition.definition}</p>
+
+      {definition.example && <p className="example">"{definition.example}"</p>}
+
       {props.meaning.synonyms && props.meaning.synonyms.length > 0 && (
-        <p className="similar">
-          <strong>Similar:</strong> {props.meaning.synonyms.join(", ")}
+        <p className="synonyms">
+          <strong>Synonyms:</strong> {props.meaning.synonyms.join(", ")}
         </p>
       )}
-    </div>
+    </section>
   );
 }
