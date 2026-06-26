@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: 
+
+# Sitemap location
+Sitemap: https://dictionary-project-carla.vercel.app/sitemap.xml
