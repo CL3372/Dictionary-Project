@@ -12,11 +12,9 @@ export default function Results(props) {
     <div className="Results">
       <section className="word-box">
         <h2>{props.results.word}</h2>
-
-        {props.results.phonetics &&
-          props.results.phonetics.map(function (phonetic, index) {
-            return <Phonetics phonetic={phonetic} key={index} />;
-          })}
+        {props.results.phonetic && (
+          <p className="phonetic">{props.results.phonetic}</p>
+        )}
       </section>
 
       {props.results.meanings &&
