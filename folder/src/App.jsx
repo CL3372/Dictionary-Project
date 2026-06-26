@@ -6,9 +6,9 @@ export default function App() {
     <div className="App">
       <Dictionary defaultKeyword="sunset" />
       <footer className="App-footer">
-        Coded by <strong>Carla Louro</strong> • 
+        Coded by <a href="https://www.shecodes.io/learn/workshops/coding#" target="_blank" rel="noopener noreferrer"><strong>Carla Louro</strong></a> • 
         <a href="https://github.com/CL3372/Dictionary-Project" target="_blank" rel="noopener noreferrer">open Sourced on Github</a> • 
-        rendered on <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a>
+        rendered on <a href="https://vercel.com/carla-louro-s-projects" target="_blank" rel="noopener noreferrer">Vercel</a>
       </footer>
     </div>
   );
