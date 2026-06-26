@@ -6,7 +6,6 @@ import Results from "./Results";
 export default function Dictionary(props) {
   const [keyword, setKeyword] = useState(props.defaultKeyword);
   const [results, setResults] = useState(null);
-  const [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
     setResults(response.data);
@@ -19,7 +18,6 @@ export default function Dictionary(props) {
   }
 
   useEffect(() => {
-    setLoaded(true);
     search();
   }, []);
 
@@ -42,9 +40,10 @@ export default function Dictionary(props) {
             onChange={updateKeyword}
             defaultValue={props.defaultKeyword}
             autoFocus={true}
+            placeholder="Enter a word..."
           />
-          <p className="Hint">i.e. Gastronomy, wine, herbs, coding</p>
         </form>
+        <p className="Hint">i.e. sunset, wine, yoga, coding</p>
         <Results results={results} />
       </section>
     </div>
